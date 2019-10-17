@@ -12,3 +12,19 @@
 (point)225 ; Current position in the file
 (/ (point-max) 2)190 ; Goes to the mid point in the file.
 (goto-char (/ (point-max) 2)) ; Goes to the mid point in the file.
+
+					; Learn X in Y mins
+(setq my-name "Prasanna")
+(defun hello()
+  (insert "Hello I'm " my-name))
+(hello)
+
+(defun add-num(x y)
+  (+ x y))
+(add-num 5 6)
+
+(require 'ert)
+
+
+
+
