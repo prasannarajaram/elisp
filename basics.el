@@ -26,5 +26,8 @@
 (require 'ert)
 
 
-
-
+(defun multiply-by-six (number)
+  "Multiplies the given number by six"
+  (* number 6))
+(multiply-by-six 5)
+;; adding a comment line
